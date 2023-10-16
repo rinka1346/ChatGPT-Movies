@@ -68,7 +68,8 @@ nav a:hover {
 }
 
 .movie img {
-  max-width: 100%;
+  width: 100%; /* 画像の幅を親要素に合わせる */
+  max-width: 300px; /* 最大幅を設定（ハウルの動く城の画像サイズに合わせて調整） */
   height: auto;
   border-radius: 10px;
   margin-bottom: 10px;
@@ -85,4 +86,12 @@ h2 {
   max-width: 100px;
   height: auto;
   border-radius: 50%;
+}
+
+.movie-image {
+  max-width: 100%; /* 画像の幅を親要素に合わせる */
+  max-height: 150px; /* 最大高さを設定（崖の上のポニョの画像サイズに合わせて調整） */
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 10px;
 }
