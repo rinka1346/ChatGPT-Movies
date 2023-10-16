@@ -68,8 +68,7 @@ nav a:hover {
 }
 
 .movie img {
-  width: 100%; /* 画像の幅を親要素に合わせる */
-  max-width: 300px; /* 最大幅を設定（ハウルの動く城の画像サイズに合わせて調整） */
+  width: 136px;
   height: auto;
   border-radius: 10px;
   margin-bottom: 10px;
